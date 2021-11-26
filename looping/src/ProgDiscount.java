@@ -11,7 +11,7 @@ public class ProgDiscount {
         double bayar = 0.0;
 
         // Bagian utama program
-        System.out.println("Masukkan jumlah belanja anda dengan enter");
+        System.out.println("Masukkan jumlah belanja anda: ");
         try {
             belanja = Double.parseDouble(dataAngka.readLine());
         } catch (IOException e) {
