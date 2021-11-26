@@ -3,7 +3,7 @@ import java.io.*;
 public class ProgDiscount {
 
     public static void main(String[] args) {
-        DataInputStream dataAngka = new DataInputStream(System.in);
+        BufferedReader dataAngka = new BufferedReader(new InputStreamReader(System.in));
 
         // Deklarasi variable dan tipe data
         double belanja = 0.0;
